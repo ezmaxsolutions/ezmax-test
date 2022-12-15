@@ -24,17 +24,17 @@
 import { ref } from 'vue'
 import EzMenuLinkItem from 'src/components/menu-link-item/ez-menu-link-item.vue'
 
-// TODO: Ajouter une page about (ajouter également dans les routes.ts)
+// TODO: Ajouter une page /about (ajouter également dans les routes.ts)
 const theLinks = [
    {
       title: 'Accueil',
-      caption: 'On vous aimes!',
+      caption: 'On vous aime!',
       icon: 'home',
       link: '/accueil'
    },
    {
       title: 'Liste des Pokémons',
-      caption: 'Atrappez les tous!',
+      caption: 'Atrappez-les tous!',
       icon: 'catching_pokemon',
       link: '/pokemon'
    }
