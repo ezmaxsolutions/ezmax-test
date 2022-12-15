@@ -21,7 +21,7 @@ export interface ILinkProps {
 
 withDefaults(defineProps<ILinkProps>(), {
    caption: '',
-   link: '#',
+   link: '',
    icon: ''
 })
 </script>
