@@ -1,4 +1,4 @@
-import { RouteRecordRaw } from 'vue-router'
+import { RouteRecordRaw } from 'vue-router';
 
 // prettier-ignore
 const routes: RouteRecordRaw[] = [
@@ -10,9 +10,9 @@ const routes: RouteRecordRaw[] = [
       path: '/',
       component: () => import('src/layouts/default-layout.vue'),
       children: [
-         { 
-            path: 'accueil', 
-            component: () => import('src/pages/page-home.vue') 
+         {
+            path: 'accueil',
+            component: () => import('src/pages/page-home.vue')
          },
          {
             path: 'pokemon',
@@ -30,4 +30,4 @@ const routes: RouteRecordRaw[] = [
    }
 ]
 
-export default routes
+export default routes;

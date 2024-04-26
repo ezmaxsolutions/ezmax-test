@@ -1,6 +1,6 @@
-# Ezmax Test App (ezmax-test)
+# Quasar App (quasar-project)
 
-A Test App for new employees
+A Quasar Project
 
 ## Install the dependencies
 ```bash
